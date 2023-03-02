@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="update in runner file config properties">
-      <change afterPath="$PROJECT_DIR$/misc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/config/ConfigProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties/Config.Properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties/Data.Properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677717568318</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update in runner file config properties">
+      <created>1677719281193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677719281193</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update in runner file config properties">
+      <created>1677719296532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677719296532</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
