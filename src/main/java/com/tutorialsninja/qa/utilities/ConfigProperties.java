@@ -14,7 +14,7 @@ public class ConfigProperties {
         Properties config = new Properties();
 
         try {
-            FileInputStream fis = new FileInputStream("C:\\Users\\sron4\\Downloads\\HybridFrameWork02222023\\src\\test\\resources\\Properties\\Config.Properties");
+            FileInputStream fis = new FileInputStream(path+"/src/main/java/com/tutorialsninja/qa/properties/Config.Properties");
             config.load(fis);
         } catch (IOException e) {
             throw new RuntimeException(e);
