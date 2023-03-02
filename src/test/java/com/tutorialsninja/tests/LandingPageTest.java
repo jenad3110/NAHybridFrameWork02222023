@@ -10,12 +10,11 @@ public class LandingPageTest extends CommonAPI {
 
 
     @Test
-    public void test (){
+    public void test() {
 
-        Assert.assertTrue(false);
+        Assert.fail();
 
     }
-
 
 
 }
