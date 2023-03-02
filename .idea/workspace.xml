@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="update in runner file config properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="commit test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677719296532</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit test">
+      <created>1677721063455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677721063455</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +234,8 @@
     <MESSAGE value="3 rd commit" />
     <MESSAGE value="Properties file update" />
     <MESSAGE value="update in runner file config properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="update in runner file config properties" />
+    <MESSAGE value="commit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
