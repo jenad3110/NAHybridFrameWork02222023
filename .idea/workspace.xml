@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb232cc-4f11-4300-828d-4ef1121e89d6" name="Changes" comment="1 st commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/listeners/Mylisteners.java" afterDir="false" />
+    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="update in runner file config properties">
+      <change afterPath="$PROJECT_DIR$/misc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/config/ConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties/Config.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Properties/Data.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XML Properties File" />
         <option value="Class" />
       </list>
     </option>
@@ -27,83 +38,198 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2MQxLAVlPWol3imogNyExldzKou" />
+  <component name="ProjectId" id="2M6tExWAnNVUJk8iJ3bndIjRVWu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sron4/Downloads/Hatem_Selenium-Collections-master (1)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\main\java\com\tutorialsninja\qa\config" />
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\main\java\com\tutorialsninja\qa" />
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml">
+    <configuration name="C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="LandingPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.LandingPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LandingPageTest.accessHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.LandingPageTest" />
+      <option name="METHOD_NAME" value="accessHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LandingPageTest.accessLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.LandingPageTest" />
+      <option name="METHOD_NAME" value="accessLoginPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml" />
+        <item itemvalue="TestNG.LandingPageTest.accessLoginPage" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LandingPageTest" />
+        <item itemvalue="TestNG.LandingPageTest.accessHomePage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2fb232cc-4f11-4300-828d-4ef1121e89d6" name="Changes" comment="" />
-      <created>1677713549334</created>
+      <changelist id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="" />
+      <created>1677099753151</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677713549334</updated>
+      <updated>1677099753151</updated>
     </task>
-    <task id="LOCAL-00001" summary="1 st commit">
-      <created>1677716090800</created>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1677714066450</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1677716090800</updated>
+      <updated>1677714066450</updated>
     </task>
-    <task id="LOCAL-00002" summary="1 st commit">
-      <created>1677716759839</created>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1677715201236</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1677716759840</updated>
+      <updated>1677715201236</updated>
     </task>
-    <task id="LOCAL-00003" summary="1 st commit">
-      <created>1677717863494</created>
+    <task id="LOCAL-00003" summary="3rd commit">
+      <created>1677715360573</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1677717863494</updated>
+      <updated>1677715360573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3 rd commit">
+      <created>1677715383919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715383919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3 rd commit">
+      <created>1677715421780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715421780</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Properties file update">
+      <created>1677716528939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677716528939</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update in runner file config properties">
+      <created>1677717568318</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677717568318</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1 st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 st commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="3rd commit" />
+    <MESSAGE value="3 rd commit" />
+    <MESSAGE value="Properties file update" />
+    <MESSAGE value="update in runner file config properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="update in runner file config properties" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
