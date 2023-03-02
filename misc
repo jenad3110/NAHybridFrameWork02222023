@@ -1,0 +1,40 @@
+ @Test
+    public void accessLoginPage() {
+
+        LandingPage homePage = new LandingPage(getDriver());
+
+        homePage.clickMyAccountDropDown();
+        homePage.clickLoginOption();
+
+        LoginPage loginPage = homePage.clickLoginButton() ;
+
+
+
+        String actualResult = loginPage.loginPageAssertion();
+        String expectedResult = newCustomer;
+        Assert.assertEquals(actualResult, expectedResult);
+
+
+    }
+
+
+--------------------------------------------------------------------
+
+
+
+
+    @Test
+    public void enterUserNameAndPassword() {
+
+        LandingPage homePage = new LandingPage(getDriver());
+        homePage.clickMyAccountDropDown();
+        homePage.clickLoginOption();
+
+        LoginPage loginPage = new LoginPage(getDriver());
+
+        loginPage.emailAddressTextFieldNacersWay("arun.selenium@gmail.com");
+        loginPage.passwordField().sendKeys("Second@123");
+        loginPage.loginButton().click();
+
+    }
+}

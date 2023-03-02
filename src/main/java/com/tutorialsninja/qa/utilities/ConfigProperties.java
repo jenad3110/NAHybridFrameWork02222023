@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.utility;
+package com.tutorialsninja.qa.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

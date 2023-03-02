@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.utility;
+package com.tutorialsninja.qa.utilities;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.apache.commons.io.FileUtils;
 
-public class Utilities {
+public class Utility {
 
     WebDriver driver;
 
