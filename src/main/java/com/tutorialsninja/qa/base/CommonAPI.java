@@ -17,7 +17,7 @@ public class CommonAPI {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://tutorialsninja.com/demo/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));x`
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
 

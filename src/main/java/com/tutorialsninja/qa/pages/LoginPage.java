@@ -1,2 +1,2 @@
-package com.tutorialsninja.qa.base.pages;public class LoginPage {
+package com.tutorialsninja.qa.pages;public class LoginPage {
 }
