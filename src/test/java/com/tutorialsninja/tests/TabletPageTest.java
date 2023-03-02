@@ -11,12 +11,12 @@ public class TabletPageTest extends CommonAPI {
     public static Logger log = LogManager.getLogger(TabletPageTest.class.getName());
 
 
-//@Test
-//public void clickTabletButton(){
-//    LandingPage landingPage =new LandingPage(getDriver());
-//    landingPage.clickTabletButton();
-//
-//}
+    @Test(enabled = false)
+    public void clickTabletButton() {
+        LandingPage landingPage = new LandingPage(getDriver());
+        landingPage.clickTabletButton();
+
+    }
 
 
     @Test
