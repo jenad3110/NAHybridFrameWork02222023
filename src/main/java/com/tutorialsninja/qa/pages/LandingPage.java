@@ -9,7 +9,10 @@ public class LandingPage {
 
     WebDriver driver;
 
-    @FindBy(xpath="//span[text()='Checkout']")
+    @FindBy(linkText = "Tablets")
+    WebElement tabletButton;
+
+    @FindBy(xpath = "//span[text()='Checkout']")
     WebElement checkoutButton;
     @FindBy(xpath = "//a[text()='My Account']")
     WebElement myAccountDropdown;
@@ -36,7 +39,7 @@ public class LandingPage {
         loginOption.click();
     }
 
-    public LoginPage clickLoginButton(){
+    public LoginPage clickLoginButton() {
 
         loginOption.click();
 
@@ -45,13 +48,17 @@ public class LandingPage {
     }
 
 
-    public CheckOutPage clickCheckOutButton(){
+    public CheckOutPage clickCheckOutButton() {
 
         checkoutButton.click();
 
         return new CheckOutPage(driver);
     }
 
+    public void clickTabletButton() {
+
+        tabletButton.click();
+    }
 
 
 }
