@@ -8,5 +8,5 @@
             <class name="com.tutorialsninja.tests.LandingPageTest"/>
 <!--            <class name="com.tutorialsninja.tests.TabletPageTest"/>-->
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+</suite>
