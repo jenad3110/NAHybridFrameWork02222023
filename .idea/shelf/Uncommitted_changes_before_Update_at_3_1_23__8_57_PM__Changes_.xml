@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]" date="1677722276084" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 3/1/23, 8:57 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/tutorialsninja/tests/LoginPageTest.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/tutorialsninja/tests/LoginPageTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/LoginPageTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/tutorialsninja/tests/LandingPageTest.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/tutorialsninja/tests/LandingPageTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/LandingPageTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/tutorialsninja/qa/base/CommonAPI.class" />
+    <option name="AFTER_PATH" value="target/classes/com/tutorialsninja/qa/base/CommonAPI.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/CommonAPI.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/tutorialsninja/tests/CheckOutTest.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/tutorialsninja/tests/CheckOutTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/CheckOutTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/tutorialsninja/qa/pages/CheckOutPage.class" />
+    <option name="AFTER_PATH" value="target/classes/com/tutorialsninja/qa/pages/CheckOutPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/CheckOutPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/tutorialsninja/qa/pages/LandingPage.class" />
+    <option name="AFTER_PATH" value="target/classes/com/tutorialsninja/qa/pages/LandingPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/LandingPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/tutorialsninja/qa/pages/LoginPage.class" />
+    <option name="AFTER_PATH" value="target/classes/com/tutorialsninja/qa/pages/LoginPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_1_23,_8_57_PM_[Changes]/LoginPage.class" />
+  </binary>
+</changelist>
