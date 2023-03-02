@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2023-03-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="test 4">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints-2023-03-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2023-03-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/TabletPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/TabletPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/TabletPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/TabletPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2MTflX6afXwrPtL5LmUpyOHSUzo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HybridFrameWork02222023" />
       <method v="2">
@@ -50,6 +53,16 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="HybridFrameWork02222023" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="TestNG.TabletPageTest" />
       </list>
     </recent_temporary>
@@ -86,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677796649882</updated>
     </task>
+    <task id="LOCAL-00001" summary="test 4">
+      <created>1677798903146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677798903146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 4" />
   </component>
 </project>
