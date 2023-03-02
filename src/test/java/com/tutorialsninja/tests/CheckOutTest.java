@@ -1,2 +1,7 @@
-package com.tutorialsninja.tests;public class CheckOutTest {
+package com.tutorialsninja.tests;
+
+public class CheckOutTest {
+
+
+
 }
