@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6caac869-9892-4c15-b3ec-dc02979685b6" name="Changes" comment="3 rd" />
+    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="3 rd commit">
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Properties/Config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Properties/Config.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Properties/Data.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Properties/Data.Properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,10 +27,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2MQy9aZ7wMEgeYuY9EBZSxLAzBv" />
+  <component name="ProjectId" id="2M6tExWAnNVUJk8iJ3bndIjRVWu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,30 +44,151 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sron4/Downloads/Hatem_Selenium-Collections-master (1)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HomePageTest.accessLoginPage">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.accessHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.HomePageTest" />
+      <option name="METHOD_NAME" value="accessHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.accessLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.HomePageTest" />
+      <option name="METHOD_NAME" value="accessLoginPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HybridFrameWork02222023GroupWednesday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTest.accessLoginPage" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.accessHomePage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6caac869-9892-4c15-b3ec-dc02979685b6" name="Changes" comment="" />
-      <created>1677713949457</created>
+      <changelist id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="" />
+      <created>1677099753151</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677713949457</updated>
+      <updated>1677099753151</updated>
     </task>
-    <task id="LOCAL-00001" summary="3 rd">
-      <created>1677716043343</created>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1677714066450</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1677716043343</updated>
+      <updated>1677714066450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1677715201236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715201236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3rd commit">
+      <created>1677715360573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715360573</updated>
+    </task>
+    <task id="LOCAL-00004" summary="3 rd commit">
+      <created>1677715383919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715383919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3 rd commit">
+      <created>1677715421780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677715421780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3 rd" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 rd" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="3rd commit" />
+    <MESSAGE value="3 rd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 rd commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
