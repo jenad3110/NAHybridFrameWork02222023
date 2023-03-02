@@ -1,6 +1,5 @@
 package com.tutorialsninja.qa.base;
 
-import com.tutorialsninja.qa.config.ConfigProperties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,10 +7,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+
+import static com.tutorialsninja.qa.utility.ConfigProperties.loadProperties;
 
 public class CommonAPI {
 
@@ -40,25 +39,11 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearUp(ITestResult result) {
-       // driver.quit();
+       driver.quit();
     }
 
 
-    public static  Properties loadProperties() {
 
-        Properties config = new Properties();
-
-                try {
-                    FileInputStream fis = new FileInputStream("C:\\Users\\sron4\\Downloads\\HybridFrameWork02222023\\src\\test\\resources\\Properties\\Config.Properties");
-                    config.load(fis);
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-
-
-
-        return config;
-    }
 
     public void click(WebElement element ){
 

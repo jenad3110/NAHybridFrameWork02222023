@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="3 rd commit">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Properties/Config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Properties/Config.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Properties/Data.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Properties/Data.Properties" afterDir="false" />
+    <list default="true" id="a61eb313-7297-49e4-a5c5-8c0a83775c0c" name="Changes" comment="Properties file update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/Config.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utility/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/config/Data.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\main\java\com\tutorialsninja\qa\config" />
+      <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\main\java\com\tutorialsninja\qa" />
       <recent name="C:\Users\sron4\Downloads\HybridFrameWork02222023\src\test\resources" />
     </key>
   </component>
@@ -178,14 +184,22 @@
       <option name="project" value="LOCAL" />
       <updated>1677715421780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Properties file update">
+      <created>1677716528939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677716528939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="3rd commit" />
     <MESSAGE value="3 rd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 rd commit" />
+    <MESSAGE value="Properties file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properties file update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
