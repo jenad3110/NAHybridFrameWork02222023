@@ -4,7 +4,9 @@
 
     <test name="TutorialsNinja Tests">
         <classes>
-            <class name="com.tutorialsninja.tests.TabletPageTest"/>
+
+            <class name="com.tutorialsninja.tests.LandingPageTest"/>
+<!--            <class name="com.tutorialsninja.tests.TabletPageTest"/>-->
         </classes>
     </test>
 </suite>

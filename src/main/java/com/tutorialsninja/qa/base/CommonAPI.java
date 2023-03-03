@@ -1,5 +1,6 @@
 package com.tutorialsninja.qa.base;
 
+import com.tutorialsninja.qa.utilities.Utility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -44,7 +45,8 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearUp(ITestResult result) {
-       driver.quit();
+       new Utility(getDriver()).ScreenShot(result);
+        driver.quit();
     }
 
 
