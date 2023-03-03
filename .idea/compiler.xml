@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HybridFrameWork02222023GroupWednesday" />
+        <module name="NAHybridFrameWork02222023" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HybridFrameWork02222023GroupWednesday" target="1.8" />
+      <module name="NAHybridFrameWork02222023" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

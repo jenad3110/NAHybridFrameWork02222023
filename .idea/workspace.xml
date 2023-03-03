@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="commit test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/RegisterPageTest.java" afterDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="Reformat code">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridFrameWork02222023 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridFrameWork02222023GroupWednesday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints-2023-03-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2023-03-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
@@ -51,17 +51,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hebib/MyLearning/NAHybridFrameWork02222023"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hebib/MyLearning/Cucumber_QaCart&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
-      <module name="HybridFrameWork02222023GroupWednesday" />
+      <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorialsninja.qa.pages.*" />
@@ -74,7 +75,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.properties.Test" />
-      <module name="HybridFrameWork02222023GroupWednesday" />
+      <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorialsninja.qa.properties.*" />
@@ -99,7 +100,7 @@
       </method>
     </configuration>
     <configuration name="C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridFrameWork02222023GroupWednesday" />
+      <module name="NAHybridFrameWork02222023" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -109,7 +110,7 @@
       </method>
     </configuration>
     <configuration name="TabletPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridFrameWork02222023GroupWednesday" />
+      <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorialsninja.tests.*" />
