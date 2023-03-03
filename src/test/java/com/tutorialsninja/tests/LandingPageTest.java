@@ -24,7 +24,7 @@ public class LandingPageTest extends CommonAPI {
         homePage.clickLoginOption();
         LoginPage loginPage = homePage.clickLoginButton();
         String actualResult = loginPage.loginPageAssertion();
-        String expectedResult = dataProp.getProperty("test1");
+        String expectedResult = dataProp.getProperty("NewCustomer");
         Assert.assertEquals(actualResult, expectedResult);
 
 
