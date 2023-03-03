@@ -20,6 +20,8 @@ public class LandingPage {
     @FindBy(linkText = "Login")
     WebElement loginOption;
 
+    @FindBy(linkText = "Register")
+    WebElement registerOption;
 
     public LandingPage(WebDriver driver) {
 
@@ -61,4 +63,9 @@ public class LandingPage {
     }
 
 
+    public void clickRegisterOption(){
+
+        registerOption.click();
+
+    }
 }
