@@ -20,8 +20,6 @@ public class ConfigProperties {
             throw new RuntimeException(e);
         }
 
-
-
         return config;
     }
 
