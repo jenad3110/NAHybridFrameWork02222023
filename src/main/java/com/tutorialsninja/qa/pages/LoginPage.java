@@ -5,11 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class LoginPage {
 
     WebDriver driver;
     @FindBy(xpath = "//*[@id=\"content\"]/div/div[1]/div/h2")
     WebElement newCostumer;
+
 
 
     @FindBy(id = "input-email")
