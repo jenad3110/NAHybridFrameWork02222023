@@ -45,7 +45,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearUp(ITestResult result) {
-       new Utility().ScreenShot(result);
+       new Utility(getDriver()).ScreenShot(result);
         driver.quit();
     }
 
