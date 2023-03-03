@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HybridFrameWork02222023GroupWednesday" target="1.8" />
+      <module name="HybridFrameWork02222023GroupWednesday" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
