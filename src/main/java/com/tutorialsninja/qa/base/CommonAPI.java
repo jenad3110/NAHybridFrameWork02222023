@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 import java.util.Properties;
 
+import static com.tutorialsninja.qa.utilities.ConfigProperties.loadDataTestProperties;
 import static com.tutorialsninja.qa.utilities.ConfigProperties.loadProperties;
 
 public class CommonAPI {
@@ -21,6 +22,7 @@ public class CommonAPI {
     public WebDriver getDriver() {
         return driver;
     }
+
     public static Logger log = LogManager.getLogger(CommonAPI.class.getName());
 
 
@@ -29,8 +31,9 @@ public class CommonAPI {
     Properties prop = loadProperties();
     String url = prop.getProperty("url");
 
-    public String newCustomer = prop.getProperty("test1");
-    public String ShoppingCart= prop.getProperty("test2");
+
+    public Properties dataProp = loadDataTestProperties();
+
 
 
     @BeforeMethod
@@ -45,22 +48,16 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearUp(ITestResult result) {
-       new Utility(getDriver()).ScreenShot(result);
+        new Utility(getDriver()).ScreenShot(result);
         driver.quit();
     }
 
 
-
-
-    public void click(WebElement element ){
+    public void click(WebElement element) {
 
         element.click();
 
     }
-
-
-
-
 
 
 }

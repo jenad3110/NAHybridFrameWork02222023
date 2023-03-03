@@ -23,5 +23,19 @@ public class ConfigProperties {
         return config;
     }
 
+    public static  Properties loadDataTestProperties() {
+
+        Properties config = new Properties();
+
+        try {
+            FileInputStream fis = new FileInputStream(path+"/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties");
+            config.load(fis);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        return config;
+    }
+
 
 }

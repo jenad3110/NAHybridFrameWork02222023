@@ -16,5 +16,17 @@ public class LandingPageTest extends CommonAPI {
 
     }
 
+    @Test
+    public void accessLoginPage() {
 
+        LandingPage homePage = new LandingPage(getDriver());
+        homePage.clickMyAccountDropDown();
+        homePage.clickLoginOption();
+        LoginPage loginPage = homePage.clickLoginButton();
+        String actualResult = loginPage.loginPageAssertion();
+        String expectedResult = dataProp.getProperty("test1");
+        Assert.assertEquals(actualResult, expectedResult);
+
+
+    }
 }

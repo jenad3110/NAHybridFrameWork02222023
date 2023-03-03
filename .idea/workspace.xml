@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="ScreenShot Pull">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/prints-2023-03-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2023-03-02.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
