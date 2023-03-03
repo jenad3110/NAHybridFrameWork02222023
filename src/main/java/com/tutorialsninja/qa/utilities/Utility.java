@@ -25,7 +25,7 @@ public class Utility extends CommonAPI {
 
     public  void ScreenShot(ITestResult result) {
         String name = result.getName();
-        DateFormat df = new SimpleDateFormat("MMddyyyyHHmmssmma");
+        DateFormat df = new SimpleDateFormat("MMddyyyyHHmmssa");
         Date date = new Date();
         df.format(date);
         File file;
