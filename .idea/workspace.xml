@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - cleaner code">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="screenshot fixed by mohamed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/accessLoginPage 03022023193741PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/accessLoginPage 03022023200646PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/enterEmail 03022023213316PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/enterEmail 03022023213332PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023190522PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023193747PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/RegisterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/CheckOutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/RegisterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/TabletPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/properties/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/CheckOutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/LandingPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/TabletPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +53,14 @@
     </option>
   </component>
   <component name="ProjectId" id="2MTflX6afXwrPtL5LmUpyOHSUzo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hebib/MyLearning/NAHybridFrameWork02222023"
-  }
-}]]></component>
   <component name="RunManager" selected="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
