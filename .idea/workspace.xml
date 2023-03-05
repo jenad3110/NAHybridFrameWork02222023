@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - email with current time">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="dateformt test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/properties/DataTest.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/LandingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +38,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2MTflX6afXwrPtL5LmUpyOHSUzo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hebib/MyLearning/NAHybridFrameWork02222023"
-  }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml">
+  <component name="RunManager" selected="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
       <module name="HybridFrameWork02222023GroupWednesday" />
@@ -116,8 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NAHybridFrameWork02222023" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LoginPage" />
