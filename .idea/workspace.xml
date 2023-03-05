@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - screenshot for failed tests only">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="screenshot fixed by mohamed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/CheckOutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/RegisterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/TabletPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/properties/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/CheckOutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/LandingPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/TabletPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +53,14 @@
     </option>
   </component>
   <component name="ProjectId" id="2MTflX6afXwrPtL5LmUpyOHSUzo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hebib/MyLearning/NAHybridFrameWork02222023"
-  }
-}]]></component>
   <component name="RunManager" selected="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
@@ -180,14 +195,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677811226712</updated>
     </task>
-    <task id="LOCAL-00008" summary="mohamed - screenshot for failed tests only">
-      <created>1677850960939</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1677850960939</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +213,6 @@
     <MESSAGE value="commit test" />
     <MESSAGE value="mohamed - email with current time" />
     <MESSAGE value="mohamed - cleaner code" />
-    <MESSAGE value="mohamed - screenshot for failed tests only" />
-    <option name="LAST_COMMIT_MESSAGE" value="mohamed - screenshot for failed tests only" />
+    <option name="LAST_COMMIT_MESSAGE" value="mohamed - cleaner code" />
   </component>
 </project>
