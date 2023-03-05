@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class RegisterPageTest extends CommonAPI {
 
 
-    @Test(invocationCount = 5)
+    @Test
     public void enterEmail() throws InterruptedException {
 
         LandingPage homePage = new LandingPage(getDriver());
