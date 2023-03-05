@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - cleaner code">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - screenshot for failed tests only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/accessLoginPage 03022023193741PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/accessLoginPage 03022023200646PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/enterEmail 03022023213316PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/enterEmail 03022023213332PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023190522PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023193747PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/RegisterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/ConfigProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tutorialsninja/tests/RegisterPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677811226712</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mohamed - screenshot for failed tests only">
+      <created>1677850960939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850960939</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +205,7 @@
     <MESSAGE value="commit test" />
     <MESSAGE value="mohamed - email with current time" />
     <MESSAGE value="mohamed - cleaner code" />
-    <option name="LAST_COMMIT_MESSAGE" value="mohamed - cleaner code" />
+    <MESSAGE value="mohamed - screenshot for failed tests only" />
+    <option name="LAST_COMMIT_MESSAGE" value="mohamed - screenshot for failed tests only" />
   </component>
 </project>
