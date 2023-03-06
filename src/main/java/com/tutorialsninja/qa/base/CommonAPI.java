@@ -48,7 +48,8 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearUp(ITestResult result) {
-        new Utility(getDriver()).ScreenShot(result);
+        if(result.getStatus()==result.FAILURE){
+        new Utility(getDriver()).ScreenShot(result);}
         driver.quit();
     }
 
@@ -58,6 +59,8 @@ public class CommonAPI {
         element.click();
 
     }
+
+
 
 
 }

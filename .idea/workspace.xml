@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="mohamed - email with current time">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="ExtentReporter by walid">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Bilal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Common Runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Mohamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Salim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Walid.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023190142PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023194757PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AbdElfatah.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +42,24 @@
     </option>
   </component>
   <component name="ProjectId" id="2MTflX6afXwrPtL5LmUpyOHSUzo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hebib/MyLearning/NAHybridFrameWork02222023&quot;
-  }
-}</component>
-  <component name="RunManager" selected="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml">
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
       <module name="HybridFrameWork02222023GroupWednesday" />
@@ -98,17 +109,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabletPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridFrameWork02222023GroupWednesday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tutorialsninja.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tutorialsninja.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.tests.TabletPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="/Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NAHybridFrameWork02222023" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Walid.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NAHybridFrameWork02222023" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,10 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" />
+        <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LoginPage" />
-        <item itemvalue="TestNG.TabletPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +183,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677810546183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mohamed - cleaner code">
+      <created>1677811213805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677811213805</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mohamed - cleaner code">
+      <created>1677811226712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677811226712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ExtentReporter by walid">
+      <created>1678038059068</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678038059068</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit test" />
     <MESSAGE value="mohamed - email with current time" />
-    <option name="LAST_COMMIT_MESSAGE" value="mohamed - email with current time" />
+    <MESSAGE value="mohamed - cleaner code" />
+    <MESSAGE value="ExtentReporter by walid" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExtentReporter by walid" />
   </component>
 </project>
