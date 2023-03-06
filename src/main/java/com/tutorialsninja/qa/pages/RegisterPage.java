@@ -2,7 +2,6 @@ package com.tutorialsninja.qa.pages;
 
 import com.tutorialsninja.qa.base.CommonAPI;
 import com.tutorialsninja.qa.properties.Test;
-import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,11 +14,12 @@ public class RegisterPage extends CommonAPI {
     WebElement emailField;
 
 
-    public RegisterPage(WebDriver driver ){
+    public RegisterPage(WebDriver driver) {
 
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
 
     }
+
     public void enterEmail() {
 
         Test test = new Test();
