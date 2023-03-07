@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="ExtentReporter by walid">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Bilal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Common Runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Mohamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Salim.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Walid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023190142PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023194757PM.jpeg" beforeDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="my listeners update by walid &#10;runners for all the team">
       <change beforePath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AbdElfatah.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678038059068</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="my listeners update by walid &#10;runners for all the team">
+      <created>1678039973123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678039973123</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +221,7 @@
     <MESSAGE value="mohamed - email with current time" />
     <MESSAGE value="mohamed - cleaner code" />
     <MESSAGE value="ExtentReporter by walid" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExtentReporter by walid" />
+    <MESSAGE value="my listeners update by walid &#10;runners for all the team" />
+    <option name="LAST_COMMIT_MESSAGE" value="my listeners update by walid &#10;runners for all the team" />
   </component>
 </project>
