@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NAHybridFrameWork02222023" target="1.8" />
+      <module name="NAHybridFrameWork02222023" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
