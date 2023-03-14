@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="test">
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="let me pull salim work">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +45,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hebib\MyLearning\NAHybridFrameWork02222023\src\main\java" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml">
-    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.pages.LoginPage" />
-      <module name="HybridFrameWork02222023GroupWednesday" />
+  <component name="RunManager" selected="Application.WriteExcel$WriteExcelDemo">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excel.ExcelReader" />
+      <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tutorialsninja.qa.pages.*" />
+          <option name="PATTERN" value="Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorialsninja.qa.properties.Test" />
-      <module name="HybridFrameWork02222023GroupWednesday" />
+    <configuration name="WriteExcel$WriteExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excel.WriteExcel$WriteExcelDemo" />
+      <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tutorialsninja.qa.properties.*" />
+          <option name="PATTERN" value="Excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteExcel$WriteExcelDemo" />
+        <item itemvalue="Application.ExcelReader" />
         <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" />
         <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
         <item itemvalue="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LoginPage" />
       </list>
     </recent_temporary>
   </component>
