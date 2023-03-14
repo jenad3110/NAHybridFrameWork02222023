@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="ExtentReporter by walid">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Bilal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Common Runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Mohamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Salim.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Walid.xml" afterDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023190142PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/failedTests/test 03022023194757PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/MyListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AbdElfatah.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/utilities/ExtentReporter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
