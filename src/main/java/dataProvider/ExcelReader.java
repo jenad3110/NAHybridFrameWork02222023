@@ -1,4 +1,4 @@
-package Excel;
+package dataProvider;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;

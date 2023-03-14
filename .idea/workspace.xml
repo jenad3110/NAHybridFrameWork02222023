@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="let me pull salim work">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConnectToSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataProvider/credentielsforsql.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAHybridFrameWork02222023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Excel/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Excel/WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorialsninja/qa/pages/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listeners/MyListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listeners/MyListeners.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +48,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/sron4/Downloads/HybridFrameWork02222023/src/main/java/Excel"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hebib\MyLearning\NAHybridFrameWork02222023\src\main\java" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteExcel$WriteExcelDemo">
-    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excel.ExcelReader" />
+  <component name="RunManager" selected="Application.ConnectToSQL">
+    <configuration name="ConnectToSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataProvider.ConnectToSQL" />
       <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excel.*" />
+          <option name="PATTERN" value="dataProvider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteExcel$WriteExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excel.WriteExcel$WriteExcelDemo" />
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataProvider.ExcelReader" />
       <module name="NAHybridFrameWork02222023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Excel.*" />
+          <option name="PATTERN" value="dataProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataProvider.WriteExcel.WriteExcelDemo" />
+      <module name="NAHybridFrameWork02222023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataProvider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,16 +108,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="HybridFrameWork02222023" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridFrameWork02222023GroupWednesday" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToSQL" />
         <item itemvalue="Application.WriteExcel$WriteExcelDemo" />
         <item itemvalue="Application.ExcelReader" />
         <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" />
         <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
-        <item itemvalue="TestNG.C:/Users/hebib/MyLearning/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678038059068</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <created>1678765340003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678765340003</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test">
+      <created>1678765400453</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678765400453</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +240,7 @@
     <MESSAGE value="mohamed - email with current time" />
     <MESSAGE value="mohamed - cleaner code" />
     <MESSAGE value="ExtentReporter by walid" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExtentReporter by walid" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
