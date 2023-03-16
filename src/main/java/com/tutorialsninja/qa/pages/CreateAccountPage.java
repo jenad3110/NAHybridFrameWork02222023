@@ -34,7 +34,6 @@ public class CreateAccountPage {
     @FindBy(name = "telephone")
     WebElement telephoneField;
 
-
     public void enterFirstName(String s) throws SQLException, IOException, ClassNotFoundException {
 
         firstNameField.sendKeys(s);
