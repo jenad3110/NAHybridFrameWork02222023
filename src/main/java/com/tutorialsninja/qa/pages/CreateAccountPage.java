@@ -14,47 +14,44 @@ public class CreateAccountPage {
     WebDriver driver;
 
 
-
     ConnectToSQL connect = new ConnectToSQL();
+    @FindBy(name = "firstname")
+    WebElement firstNameField;
+    @FindBy(name = "lastname")
+    WebElement lastNameField;
+    @FindBy(name = "telephone")
+    WebElement telephoneField;
 
     public CreateAccountPage(WebDriver driver) throws SQLException {
 
         this.driver = driver;
 
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
 
     }
-
-    @FindBy(name = "firstname")
-    WebElement firstNameField;
-
-    @FindBy(name = "lastname")
-    WebElement lastNameField;
-
-    @FindBy(name = "telephone")
-    WebElement telephoneField;
 
     public void enterFirstName(String s) throws SQLException, IOException, ClassNotFoundException {
 
         firstNameField.sendKeys(s);
 
-        connect.executeQueries("INSERT INTO login (FirstName) VALUES ('"+s+"');");
+        connect.executeQueries("INSERT INTO login (FirstName) VALUES ('" + s + "');");
     }
 
 
     public void enterFirstNameFromDB() throws SQLException, IOException, ClassNotFoundException {
 
-        firstNameField.sendKeys(connect.selectQueries("login","FirstName"));
+        firstNameField.sendKeys(connect.selectQueries("login", "FirstName"));
     }
 
     public void enterLastNameFromDB() throws SQLException, IOException, ClassNotFoundException {
 
-        lastNameField.sendKeys(connect.selectQueries("login","LastName"));
+        lastNameField.sendKeys(connect.selectQueries("login", "LastName"));
 
     }
+
     public void enterTelephoneFromDB() throws SQLException, IOException, ClassNotFoundException {
 
-        telephoneField.sendKeys(connect.selectQueries("login","Telephone"));
+        telephoneField.sendKeys(connect.selectQueries("login", "Telephone"));
 
     }
 

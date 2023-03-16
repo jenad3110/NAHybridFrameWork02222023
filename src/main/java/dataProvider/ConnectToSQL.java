@@ -42,7 +42,7 @@ public class ConnectToSQL {
 
         Statement stmt= connect.createStatement();
 
-        System.out.println("Executing this query : "+s);
+        //System.out.println("Executing this query : "+s);
 
         stmt.execute(s);
 
@@ -184,8 +184,10 @@ public class ConnectToSQL {
     public static void main(String[] args) throws Exception {
         ConnectToSQL test = new ConnectToSQL();
 
-        test.executeQueries("INSERT INTO actor (first_name,last_name,actor_id) VALUES ('?','?','606');");
-        //test.selectQueries("login","Firstname");
+        //test.executeQueries("DELETE FROM `sakila`.`actor` WHERE (`actor_id` = '600');");
+         //test.executeQueries("DELETE FROM actor WHERE (actor_id = '600');");
+       // test.executeQueries("insert into actor (actor_id,first_name,last_name) values ('600','?','?');");
+        test.selectQueries("actor","first_name");
 
     }
 }

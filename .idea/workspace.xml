@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="database added mohamed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/CreateAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/CreateAccountTest.java" afterDir="false" />
+    <list default="true" id="debaf50a-eee3-45fe-884b-860192a76992" name="Changes" comment="first back end test by mohamed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataProvider/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorialsninja/qa/pages/CreateAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ConnectToSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConnectToSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/credentielsforsql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/credentielsforsql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tutorialsninja/tests/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ConnectToSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ConnectToSQL.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +66,7 @@
       <recent name="com.tutorialsninja.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAccountTest.CreateAccountUsingDataFromDataBase">
+  <component name="RunManager" selected="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/Common Runner.xml">
     <configuration name="ConnectToSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataProvider.ConnectToSQL" />
       <module name="NAHybridFrameWork02222023" />
@@ -87,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataProvider.Test" />
+      <module name="NAHybridFrameWork02222023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HybridFrameWork02222023" />
       <method v="2">
@@ -96,6 +115,16 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="HybridFrameWork02222023" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/Common Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NAHybridFrameWork02222023" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Common Runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,33 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NAHybridFrameWork02222023" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Walid.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NAHybridFrameWork02222023" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreateAccountTest.CreateAccountUsingDataFromDataBase" />
+        <item itemvalue="TestNG.C:/Users/sron4/Downloads/HybridFrameWork02222023/src/test/resources/Common Runner.xml" />
         <item itemvalue="Application.ConnectToSQL" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.CreateAccountTest.CreateAccountUsingDataFromDataBase" />
         <item itemvalue="Application.ExcelReader" />
-        <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/Walid.xml" />
-        <item itemvalue="TestNG./Users/yaakoubmazit/Desktop/NAHybridFrameWork02222023/src/test/resources/runner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +250,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678765758545</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first back end test by mohamed">
+      <created>1678932105674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678932105674</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first back end test by mohamed">
+      <created>1678932115937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678932115937</updated>
+    </task>
+    <task id="LOCAL-00015" summary="first back end test by mohamed">
+      <created>1678932134399</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678932134399</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +292,7 @@
     <MESSAGE value="ExtentReporter by walid" />
     <MESSAGE value="test" />
     <MESSAGE value="database added mohamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="database added mohamed" />
+    <MESSAGE value="first back end test by mohamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="first back end test by mohamed" />
   </component>
 </project>

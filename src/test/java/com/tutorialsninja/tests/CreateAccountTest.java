@@ -1,7 +1,6 @@
 package com.tutorialsninja.tests;
 
 import com.tutorialsninja.qa.base.CommonAPI;
-import com.tutorialsninja.qa.pages.CreateAccountPage;
 import com.tutorialsninja.qa.pages.LandingPage;
 import com.tutorialsninja.qa.pages.LoginPage;
 import org.testng.annotations.Test;
@@ -11,8 +10,8 @@ import java.sql.SQLException;
 
 public class CreateAccountTest extends CommonAPI {
 
-   @Test
-   public void CreateAccountUsingDataFromDataBase() throws InterruptedException, SQLException, IOException, ClassNotFoundException {
+    @Test
+    public void CreateAccountUsingDataFromDataBase() throws InterruptedException, SQLException, IOException, ClassNotFoundException {
 
 
         LandingPage landingPage = new LandingPage(getDriver());
@@ -23,14 +22,11 @@ public class CreateAccountTest extends CommonAPI {
 
         Thread.sleep(3000);
 
-       CreateAccountPage createAccountPage= new CreateAccountPage(getDriver());
-       createAccountPage.enterFirstName("Bilal");
+        CreateAccountPage createAccountPage = new CreateAccountPage(getDriver());
+        createAccountPage.enterFirstName("Bilal");
 //       createAccountPage.enterFirstNameFromDB();
 //       createAccountPage.enterLastNameFromDB();
 //       createAccountPage.enterTelephoneFromDB();
-
-
-
 
 
     }
