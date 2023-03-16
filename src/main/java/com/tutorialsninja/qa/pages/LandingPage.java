@@ -68,4 +68,23 @@ public class LandingPage {
         registerOption.click();
 
     }
+
+    public WebElement myAccountDropdown() {
+
+        return myAccountDropdown;
+
+    }
+
+    public WebElement loginOption() {
+
+        return loginOption;
+
+    }
+
+    public LoginPage clickOnLoginOption(){
+
+        loginOption.click();
+
+        return new LoginPage(driver);
+    }
 }

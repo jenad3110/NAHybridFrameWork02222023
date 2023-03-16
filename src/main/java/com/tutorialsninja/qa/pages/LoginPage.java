@@ -26,6 +26,9 @@ public class LoginPage {
     @FindBy(css = "input[value='Login']")
     WebElement loginButton;
 
+    @FindBy (linkText = "Continue")
+    WebElement continueButton;
+
     public LoginPage(WebDriver driver) {
 
         this.driver = driver;
@@ -57,6 +60,11 @@ public class LoginPage {
     public String loginPageAssertion() {
 
         return newCostumer.getText();
+    }
+
+    public WebElement continueButton() {
+
+        return continueButton;
     }
 
 
