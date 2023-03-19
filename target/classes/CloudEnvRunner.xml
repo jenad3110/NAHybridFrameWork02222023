@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Run tests using cloud env">
+    <parameter name="useCloudEnv" value="true"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+
+    <test name="Run Test">
+        <classes>
+            <class name="com.tutorialsninja.tests.LandingPageTest"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
+

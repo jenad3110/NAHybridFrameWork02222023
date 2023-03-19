@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Base64;
 import java.util.Date;
 import org.apache.commons.io.FileUtils;
 
@@ -39,6 +40,23 @@ public class Utility extends CommonAPI {
                 throw new RuntimeException(e);
             }
 
+    }
+
+
+    public static String decode(String key){
+        byte[] decodedBytes = Base64.getDecoder().decode(key);
+        return new String(decodedBytes);
+    }
+
+
+    public static void main(String[] args) {
+        String originalInput = "6FFmnapqa8HoCeeEEtwB";
+        String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
+        System.out.println(encodedString);
+
+//        byte[] decodedBytes = Base64.getDecoder().decode("");
+//        String decodedString = new String(decodedBytes);
+//        System.out.println(decodedString);
     }
 
 }

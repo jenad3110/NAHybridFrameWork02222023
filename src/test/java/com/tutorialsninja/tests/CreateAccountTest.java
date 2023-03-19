@@ -1,6 +1,7 @@
 package com.tutorialsninja.tests;
 
 import com.tutorialsninja.qa.base.CommonAPI;
+import com.tutorialsninja.qa.pages.CreateAccountPage;
 import com.tutorialsninja.qa.pages.LandingPage;
 import com.tutorialsninja.qa.pages.LoginPage;
 import org.testng.annotations.Test;
@@ -23,7 +24,7 @@ public class CreateAccountTest extends CommonAPI {
         Thread.sleep(3000);
 
         CreateAccountPage createAccountPage = new CreateAccountPage(getDriver());
-        createAccountPage.enterFirstName("Bilal");
+        createAccountPage.enterFirstName("");
 //       createAccountPage.enterFirstNameFromDB();
 //       createAccountPage.enterLastNameFromDB();
 //       createAccountPage.enterTelephoneFromDB();

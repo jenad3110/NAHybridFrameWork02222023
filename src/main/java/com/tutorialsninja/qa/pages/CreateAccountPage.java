@@ -1,6 +1,6 @@
 package com.tutorialsninja.qa.pages;
 
-import dataProvider.ConnectToSQL;
+import connectExternalData.database.ConnectToSQL;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,7 +22,7 @@ public class CreateAccountPage {
     @FindBy(name = "telephone")
     WebElement telephoneField;
 
-    public CreateAccountPage(WebDriver driver) throws SQLException {
+    public CreateAccountPage(WebDriver driver) {
 
         this.driver = driver;
 

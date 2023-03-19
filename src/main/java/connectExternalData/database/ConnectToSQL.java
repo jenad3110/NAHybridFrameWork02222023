@@ -1,4 +1,4 @@
-package dataProvider;
+package connectExternalData.database;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public class ConnectToSQL {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/main/java/dataProvider/credentielsforsql.properties");
+        InputStream ism = new FileInputStream("src/main/java/connectExternalData/database/credentielsforsql.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -48,6 +48,38 @@ public class ConnectToSQL {
 
         connect.close();
 
+    }
+
+
+    public static String selectQueriesWithWhereCondition(String table,String column1,String whereCondition) throws SQLException, IOException, ClassNotFoundException {
+
+
+        //1 connect to database
+
+        connectToSqlDatabase();
+
+        //2 create statment / query
+
+        Statement stmt= connect.createStatement();
+
+        String s = "SELECT " +column1+" FROM "+ table+" where "+whereCondition+";";
+
+        System.out.println("Executing this query : "+s);
+
+        //3 execute query
+        ResultSet rs =stmt.executeQuery(s);
+
+        String c1 = null;
+
+        while(rs.next())
+        {
+            c1 = rs.getString(column1);
+            //System.out.println(c1);
+        }
+
+        connect.close();
+
+        return c1;
     }
 
     public void SelectQueries(String table,String column1) throws SQLException, IOException, ClassNotFoundException {
