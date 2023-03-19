@@ -30,7 +30,7 @@ public class CommonAPI {
 
     public static Logger log = LogManager.getLogger(CommonAPI.class.getName());
 
-    /** get data from Config.Properties file **/
+    /** set the properties to use in Config.Properties file **/
 
     public Properties dataProp = loadDataTestProperties();
     Properties prop = loadProperties();
@@ -40,12 +40,16 @@ public class CommonAPI {
     String saucelabsUsername = prop.getProperty("saucelabs.username");
     String saucelabsPassword = prop.getProperty("saucelabs.password");
 
+    /** declare the driver variable  **/
+
     WebDriver driver;
 
+    /** get method for the driver variable **/
     public WebDriver getDriver() {
         return driver;
     }
 
+    /** before method **/
     @Parameters({"useCloudEnv", "envName", "os", "osVersion", "browserName", "browserVersion"})
     @BeforeMethod
     public void setUp(String useCloudEnv, String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
@@ -64,6 +68,7 @@ public class CommonAPI {
     }
 
 
+    /** initialize cloud driver **/
     public void initializeCloudDriver(String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
         log.debug("Cloud environment is used");
@@ -76,6 +81,7 @@ public class CommonAPI {
 
     }
 
+    /** set desired capabilities for cloud driver **/
     public void getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -90,6 +96,7 @@ public class CommonAPI {
         }
     }
 
+    /** initialize local drivers **/
     public void initializeLocalDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
@@ -97,6 +104,7 @@ public class CommonAPI {
         //driver = new ChromeDriver();
     }
 
+    /** after method **/
     @AfterMethod
     public void tearUp(ITestResult result) {
         if (result.getStatus() == result.FAILURE) {
@@ -104,6 +112,10 @@ public class CommonAPI {
         }
         driver.quit();
     }
+
+
+
+    /************************************************ reusable methods  **********************************************/
 
 
     public void click(WebElement element) {
