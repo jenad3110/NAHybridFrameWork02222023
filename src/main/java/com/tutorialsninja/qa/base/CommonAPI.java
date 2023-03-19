@@ -31,7 +31,6 @@ public class CommonAPI {
     public static Logger log = LogManager.getLogger(CommonAPI.class.getName());
 
     /** set the properties to use in Config.Properties file **/
-
     public Properties dataProp = loadDataTestProperties();
     Properties prop = loadProperties();
     String url = prop.getProperty("url");
