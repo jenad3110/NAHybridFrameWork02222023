@@ -26,11 +26,15 @@ import static com.tutorialsninja.qa.utilities.ConfigProperties.loadProperties;
 public class CommonAPI {
 
 
-    /**  Log4J setup **/
+    /**
+     * Log4J setup
+     **/
 
     public static Logger log = LogManager.getLogger(CommonAPI.class.getName());
 
-    /** set the properties to use in Config.Properties file **/
+    /**
+     * set the properties to use in Config.Properties file
+     **/
     public Properties dataProp = loadDataTestProperties();
     Properties prop = loadProperties();
     String url = prop.getProperty("url");
@@ -39,29 +43,40 @@ public class CommonAPI {
     String saucelabsUsername = prop.getProperty("saucelabs.username");
     String saucelabsPassword = prop.getProperty("saucelabs.password");
 
-    /** declare the driver variable  **/
+    /**
+     * declare the driver variable
+     **/
 
     WebDriver driver;
 
-    /** get method for the driver variable **/
+    /**
+     * get method for the driver variable
+     **/
     public WebDriver getDriver() {
         return driver;
     }
 
-    /** before method **/
+    /**
+     * before method
+     **/
     @Parameters({"useCloudEnv", "envName", "os", "osVersion", "browserName", "browserVersion"})
     @BeforeMethod
     public void setUp(String useCloudEnv, String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
-        if (useCloudEnv.equalsIgnoreCase("true")) {initializeCloudDriver(envName, os, osVersion, browserName, browserVersion);}
-        else {initializeLocalDriver();}
+        if (useCloudEnv.equalsIgnoreCase("true")) {
+            initializeCloudDriver(envName, os, osVersion, browserName, browserVersion);
+        } else {
+            initializeLocalDriver();
+        }
 
         maximizeAndImplicitlyWaitAndGetUr();
 
     }
 
-    /** maximize the browser and implicitly wait and get url in one method **/
-    public void maximizeAndImplicitlyWaitAndGetUr(){
+    /**
+     * maximize the browser and implicitly wait and get url in one method
+     **/
+    public void maximizeAndImplicitlyWaitAndGetUr() {
 
         driver.manage().window().maximize();
         driver.get(url);
@@ -69,7 +84,9 @@ public class CommonAPI {
         log.debug("url starting");
     }
 
-    /** initialize cloud driver **/
+    /**
+     * initialize cloud driver
+     **/
     public void initializeCloudDriver(String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
         log.debug("Cloud environment is used");
@@ -82,7 +99,9 @@ public class CommonAPI {
 
     }
 
-    /** set desired capabilities for cloud driver **/
+    /**
+     * set desired capabilities for cloud driver
+     **/
     public void getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -97,7 +116,9 @@ public class CommonAPI {
         }
     }
 
-    /** initialize local drivers **/
+    /**
+     * initialize local drivers
+     **/
     public void initializeLocalDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
@@ -105,7 +126,9 @@ public class CommonAPI {
         //driver = new ChromeDriver();
     }
 
-    /** after method **/
+    /**
+     * after method
+     **/
     @AfterMethod
     public void tearUp(ITestResult result) {
         if (result.getStatus() == result.FAILURE) {
@@ -113,7 +136,6 @@ public class CommonAPI {
         }
         driver.quit();
     }
-
 
 
     /************************************************ reusable methods  **********************************************/
