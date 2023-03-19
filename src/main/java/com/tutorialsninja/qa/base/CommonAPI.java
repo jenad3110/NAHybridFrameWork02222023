@@ -53,19 +53,21 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(String useCloudEnv, String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
 
-        if (useCloudEnv.equalsIgnoreCase("true")) {
-            initializeCloudDriver(envName, os, osVersion, browserName, browserVersion);
+        if (useCloudEnv.equalsIgnoreCase("true")) {initializeCloudDriver(envName, os, osVersion, browserName, browserVersion);}
+        else {initializeLocalDriver();}
 
-        } else {
-            initializeLocalDriver();
-        }
+        maximizeAndImplicitlyWaitAndGetUr();
+
+    }
+
+    /** maximize the browser and implicitly wait and get url in one method **/
+    public void maximizeAndImplicitlyWaitAndGetUr(){
 
         driver.manage().window().maximize();
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         log.debug("url starting");
     }
-
 
     /** initialize cloud driver **/
     public void initializeCloudDriver(String envName, String os, String osVersion, String browserName, String browserVersion) throws MalformedURLException {
